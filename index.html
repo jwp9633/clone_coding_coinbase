@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="header">
+            <div id="header_inner">
+                <div id="header_container">
+                    <div id="header__left">
+                        <a href="" title="Home">
+                            <img src="coinbase_logo.svg" alt="coinbase logo">
+                        </a>
+                    </div>
+                    <div id="header__center">
+                        <div id="header__center__prices" class="header__center__nav">
+                            <div class="header__center__nav__nav">
+                                <a href="https://www.coinbase.com/price" title="Prices">
+                                    <div id="prices" onmouseover="borderBottom(this.id, '5px solid blue');" onmouseout="borderBottom(this.id, '5px solid white');">Prices</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div id="header__center__learn" class="header__center__nav">
+                            <div class="header__center__nav__nav">
+                                <a href="https://www.coinbase.com/learn" title="Learn">
+                                    <div id="learn" onmouseover="borderBottom(this.id, '5px solid blue'); doDisplay('header_bottom_shell1', 'block');" onmouseout="borderBottom(this.id, '5px solid white'); doDisplay('header_bottom_shell1', 'none');" >Learn</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div id="header__center__individuals" class="header__center__nav">
+                            <div class="header__center__nav__nav">
+                                <div id="individuals" onmouseover="borderBottom(this.id, '5px solid blue');" onmouseout="borderBottom(this.id, '5px solid white');">Individuals</div>
+                            </div>
+                        </div>
+                        <div id="header__center__businesses" class="header__center__nav">
+                            <div class="header__center__nav__nav">
+                                <div id="businesses" onmouseover="borderBottom(this.id, '5px solid blue');" onmouseout="borderBottom(this.id, '5px solid white');">Businesses</div>
+                            </div>
+                        </div>
+                        <div id="header__center__developers" class="header__center__nav">
+                            <div class="header__center__nav__nav">
+                                <div id="develpoers" onmouseover="borderBottom(this.id, '5px solid blue');" onmouseout="borderBottom(this.id, '5px solid white');">Developers</div>
+                            </div>                       
+                        </div>
+                        <div id="header__center__company" class="header__center__nav">
+                            <div class="header__center__nav__nav">
+                                <div id="company" onmouseover="borderBottom(this.id, '5px solid blue');" onmouseout="borderBottom(this.id, '5px solid white');">Company</div>
+                            </div>                        
+                        </div>
+                    </div>
+                    <div id="header__right">
+                        <div id="header__right__sign-in">
+                            <a href="https://www.coinbase.com/signin" title="Sign in">
+                                <div id="sign_in" onmouseover="fontColor(this.id, 'blue');" onmouseout="fontColor(this.id, 'black');">Sign in</div>
+                            </a>
+                        </div>
+                        <div id="header__right__get_started">
+                            <div>
+                                <input type="button" name="header Get Started" class="blue_btn" id="header_get_started" value="Get Started" onclick="location.href='https://www.coinbase.com/signup'">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="header_bottom">
+                <div id="header_bottom_shell1">
+                    <div id="header_bottom_learn">
+                        <div id="header_bottom_learn_left">
+                            <div>
+                                <ul>
+                                    <li>
+                                        Tips & Tutorials
+                                    </li>
+                                    <li>
+                                        Crypto basics
+                                    </li>
+                                    <li>
+                                        Market updates
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="header_bottom_learn_right">
+                            <div id="header_bottom_learn_right1">
+                                Crypto questions, answered
+                            </div>
+                            <div id="header_bottom_learn_right2">
+                                Guides and explainers for your crypto
+                                <br>
+                                questions
+                            </div>
+                            <div id="header_bottom_learn_right3">
+                                See all articles
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div id="container">
+            <div id="container1">
+                <div id="container1-1">
+                    <div id="container1-1-1">
+                        <img src="BTC_logo_blue.png" alt="">
+                        <div>Jump start your portfolio →</div>
+                    </div>                   
+                    <div id="container1-1-2">
+                        Jump start<br>your cryto<br>portfolio
+                    </div>
+                    <div id="container1-1-3">
+                        Coinbase is the easiest place to buy and sell<br>cryptocurrency. Sign up and get started today.
+                    </div>
+                    <div id="container1-1-4">
+                        <div>
+                            <input type="text" name="Email address" id="email_address" placeholder="Email address">
+                        </div>
+                        <div>
+                            <input type="button" class="blue_btn" id="get_started" value="Get started" onclick="location.href='https://www.coinbase.com/signup'">
+                        </div>
+                    </div>
+                    <div id="container1-1-5"><a href="https://www.coinbase.com/legal/user_agreement/payments_europe#general-use-prohibited-use-death-of-account-holder-and-termination" target="_blank">*Terms apply</a></div>
+                </div>
+                <div id="container1-2">
+                    <div id="container1-2-1">
+                        <img src="phone.png" alt="mobile_display">
+                    </div>
+                </div>
+            </div>
+
+            <div id="container2">
+                <div class="container2_table">
+                    <div class="container2_table_title container2_table_col1">
+                        <div>#</div>
+                    </div>
+                    <div class="container2_table_title container2_table_col2">
+                        <div>Name</div>
+                    </div>
+                    <div class="container2_table_title container2_table_col3">
+                        <div>Price</div>
+                    </div>
+                    <div class="container2_table_title container2_table_col4" id="table_title_change">
+                        <div>Change</div>
+                    </div>
+                    <div class="container2_table_title container2_table_col5" id="table_title_chart">
+                        Chart
+                    </div>
+                    <div class="container2_table_title container2_table_col6" id="table_title_trade">
+                        Trade
+                    </div>
+                </div>
+                <div class="container2_table">
+                    <div class="container2_table_row container2_table_col1">
+                        <div>1</div>
+                    </div>
+                    <div class="container2_table_row container2_table_col2">
+                        <div class="table_name">
+                            <div>
+                                <img src="BTC_logo_orange.png" alt="BTC_logo" id="BTC_logo_orange">
+                            </div>
+                            <div class="table_name_word">
+                                <div class="table_name_word_full">
+                                    Bitcoin
+                                </div>
+                                <div class="table_name_word_acr">
+                                    BTC
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container2_table_row container2_table_col3">
+                        <div>₩52,214,729.79</div>
+                    </div>
+                    <div class="container2_table_row container2_table_col4">
+                        <div>+6.20%</div>
+                    </div>
+                    <div class="container2_table_row container2_table_col5">
+                        <img src="BTC_chart.png" alt="BTC_chart" class="mini_chart">
+                    </div>
+                    <div class="container2_table_row container2_table_col6">
+                        <div>
+                            <input type="button" value="Buy" class="btn_buy" id ="btn_buy1" onmouseover="background_color(this.id, 'rgb(0 , 160, 0)');" onmouseleave="background_color(this.id, 'green');">
+                        </div>
+                    </div>
+                </div>
+                <div class="container2_table">
+                    <div class="container2_table_row container2_table_col1">
+                        <div>2</div>
+                    </div>
+                    <div class="container2_table_row container2_table_col2">
+                        <div class="table_name">
+                            <div>
+                                <img src="ETH_logo.png" alt="ETH_logo" id="ETH_logo">
+                            </div>
+                            <div class="table_name_word">
+                                <div class="table_name_word_full">
+                                    Ethereum
+                                </div>
+                                <div class="table_name_word_acr">
+                                    ETH
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container2_table_row container2_table_col3">
+                        <div>₩3,646,716.19</div>
+                    </div>
+                    <div class="container2_table_row container2_table_col4">
+                        <div>+7.51%</div>
+                    </div>
+                    <div class="container2_table_row container2_table_col5">
+                        <img src="ETH_chart.png" alt="ETH_chart" class="mini_chart">
+                    </div>
+                    <div class="container2_table_row container2_table_col6">
+                        <div>
+                            <input type="button" value="Buy" class="btn_buy" id ="btn_buy2" onmouseover="background_color(this.id, 'rgb(0 , 160, 0)');" onmouseleave="background_color(this.id, 'green');">
+                        </div>
+                    </div>
+                </div>
+                <div class="container2_table">
+                    <div class="container2_table_row container2_table_col1">
+                        <div>3</div>
+                    </div>
+                    <div class="container2_table_row container2_table_col2">
+                        <div class="table_name">
+                            <div>
+                                <img src="BCH_logo.png" alt="BCH_logo" id="BCH_logo">
+                            </div>
+                            <div class="table_name_word">
+                                <div class="table_name_word_full">
+                                    Bitcoin Cash
+                                </div>
+                                <div class="table_name_word_acr">
+                                    BCH
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container2_table_row container2_table_col3">
+                        <div>₩678,796.98</div>
+                    </div>
+                    <div class="container2_table_row container2_table_col4">
+                        <div>+4.87%</div>
+                    </div>
+                    <div class="container2_table_row container2_table_col5">
+                        <img src="BCH_chart.png" alt="BCH_chart" class="mini_chart">
+                    </div>
+                    <div class="container2_table_row container2_table_col6">
+                        <div>
+                            <input type="button" value="Buy" class="btn_buy" id ="btn_buy3" onmouseover="background_color(this.id, 'rgb(0 , 160, 0)');" onmouseleave="background_color(this.id, 'green');">
+                        </div>
+                    </div>
+                </div>
+                <div class="container2_table">
+                    <div class="container2_table_row container2_table_col1">
+                        <div>4</div>
+                    </div>
+                    <div class="container2_table_row container2_table_col2">
+                        <div class="table_name">
+                            <div>
+                                <img src="LTC_logo.png" alt="LTC_logo" id="LTC_logo">
+                            </div>
+                            <div class="table_name_word">
+                                <div class="table_name_word_full">
+                                    Litecoin
+                                </div>
+                                <div class="table_name_word_acr">
+                                    LTC
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container2_table_row container2_table_col3">
+                        <div>₩189,688.22</div>
+                    </div>
+                    <div class="container2_table_row container2_table_col4">
+                        <div>+10.69%</div>
+                    </div>
+                    <div class="container2_table_row container2_table_col5">
+                        <img src="LTC_chart.png" alt="LTC_chart" class="mini_chart">
+                    </div>
+                    <div class="container2_table_row container2_table_col6">
+                        <div>
+                            <input type="button" value="Buy" class="btn_buy" id ="btn_buy4" onmouseover="background_color(this.id, 'rgb(0 , 160, 0)');" onmouseleave="background_color(this.id, 'green');">
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div id="container3">
+                <div id="container3-1">
+                    <div id="container3-1-1">
+                        Earn up to $29 worth<br>of crypto
+                    </div>
+                    <div id="container3-1-2">
+                        Discover how specific cryptocurrencies work -- and<br>get a bit of each crypto to try out for yourself.
+                    </div>
+                    <div id="container3-1-3">
+                        <input type="button" value="Start erning" class="blue_btn" id="btn_start_earning">
+                    </div>
+                </div>
+                <div id="container3-2">
+                    <div id="container3-2-1" class="container3_row" onmouseover="border(this.id, '1px solid #dddddd');" onmouseout="border(this.id, '1px solid white');">
+                        <div class="container3_row_left">
+                            <div>
+                                <img src="CLV_logo.svg" alt="CLV logo">
+                            </div>
+                            <div class="container3-2_full_name">
+                                Clover Finance
+                            </div>
+                            <div class="container3-2_acr">
+                                CLV
+                            </div>
+                        </div>
+                        <div class="container3-2_earn">
+                            Earn $3 CLV
+                        </div>
+                    </div>
+                    <div id="container3-2-2" class="container3_row" onmouseover="border(this.id, '1px solid #dddddd');" onmouseout="border(this.id, '1px solid white');">
+                        <div class="container3_row_left">
+                            <div>
+                                <img src="GRT_logo.svg" alt="GRT logo">
+                            </div>
+                            <div class="container3-2_full_name">
+                                The Graph
+                            </div>
+                            <div class="container3-2_acr">
+                                GRT
+                            </div>
+                        </div>
+                        <div class="container3-2_earn">
+                            Earn $4 GRT
+                        </div>
+                    </div>
+                    <div id="container3-2-3" class="container3_row" onmouseover="border(this.id, '1px solid #dddddd');" onmouseout="border(this.id, '1px solid white');">
+                        <div class="container3_row_left">
+                            <div>
+                                <img src="AMP_logo.svg" alt="AMP logo">
+                            </div>
+                            <div class="container3-2_full_name">Amp</div>
+                            <div class="container3-2_acr">
+                                AMP
+                            </div>
+                        </div>
+                        <div class="container3-2_earn">
+                            Earn $3 AMP
+                        </div>
+                    </div>
+                    <div id="container3-2-4" class="container3_row" onmouseover="border(this.id, '1px solid #dddddd');" onmouseout="border(this.id, '1px solid white');">
+                        <div class="container3_row_left">
+                            <div>
+                                <img src="XLM_logo.svg" alt="XLM logo">
+                            </div>
+                            <div class="container3-2_full_name">
+                                Stellar Lumens
+                            </div>
+                            <div class="container3-2_acr">
+                                XLM
+                            </div>
+                        </div>
+                        <div class="container3-2_earn">
+                            Earn $10 XLM
+                        </div>
+                    </div>
+                    <div id="container3-2-5">
+                        <div>
+                            <a href="https://www.coinbase.com/earn">View more ></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+
+        <div id="footer">
+            <div id="footer_container">
+                <div class="footer_container_inner" id="footer_container1">
+                    <div id="footer_container1-1">
+                        <img src="coinbase_logo.svg" alt="coinbase logo">
+                    </div>
+                    <div id="footer_container1-2">
+                        <select name="languages" id="select_languages" onchange="location=this.value;">
+                            <option value="https://www.coinbase.com/en" selected>
+                                English
+                            </option>
+                            <option value="https://www.coinbase.com/ko">
+                                한국어
+                            </option>
+                        </select>
+                    </div>
+                    <div class="footer_container_content" id="footer_container1-3">
+                        © 2021 Coinbase
+                        <br>
+                        <a href="https://blog.coinbase.com/" title="The Coinbase Blog" target="__blank">
+                            Blog
+                        </a>
+                        •
+                        <a href="https://twitter.com/coinbase" title="Coinbase Twitter account" target="__blank">
+                            Twitter
+                        </a>
+                        •
+                        <a href="" title="Coinbase Facebook page" target="__blank">
+                            Facebook
+                        </a>
+                    </div>
+                </div>
+                <div class="footer_container_inner" id="footer_container2">
+                    <div class="footer_container_inner_inner">
+                        <div class="footer_container_title">
+                            Company
+                        </div>
+                        <div class="footer_container_content">
+                            <div>
+                                <a href="https://www.coinbase.com/about" title="Learn more about the company">
+                                    About
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.coinbase.com/about" title="Learn more about the company">
+                                    Careers
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.coinbase.com/about" title="Learn more about the company">
+                                    Affiliates
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.coinbase.com/about" title="Learn more about the company">
+                                    Blog
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.coinbase.com/about" title="Learn more about the company">
+                                    Press
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.coinbase.com/about" title="Learn more about the company">
+                                    Investors
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.coinbase.com/about" title="Learn more about the company">
+                                    Legal & privacy
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.coinbase.com/about" title="Learn more about the company">
+                                    Cookie policy
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer_container_inner_inner">
+                        <div class="footer_container_title">
+                            Learn
+                        </div>
+                        <div class="footer_container_content">
+                            <div>
+                                <a href="https://www.coinbase.com/about" title="Learn more about the company">
+                                    Browse crypto prices
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.coinbase.com/about" title="Learn more about the company">
+                                    Crypto basics
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.coinbase.com/about" title="Learn more about the company">
+                                    Tips & tutorials
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.coinbase.com/about" title="Learn more about the company">
+                                    Market updates
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.coinbase.com/about" title="Learn more about the company">
+                                    What is Bitcoin?
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.coinbase.com/about" title="Learn more about the company">
+                                    How to set up a crypto
+                                    <br>
+                                    wallet
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.coinbase.com/about" title="Learn more about the company">
+                                    Taxes
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_container_inner" id="footer_container3">
+                    <div class="footer_container_inner_inner">
+                        <div class="footer_container_title">
+                            Individuals
+                        </div>
+                        <div class="footer_container_content">
+                            <div>
+                                <a href="https://www.coinbase.com/about" title="Learn more about the company">
+                                    Buy & sell
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.coinbase.com/about" title="Learn more about the company">
+                                    Earn free crypto
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.coinbase.com/about" title="Learn more about the company">
+                                    Wallet
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.coinbase.com/about" title="Learn more about the company">
+                                    Card
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer_container_inner_inner">
+                        <div class="footer_container_title">
+                            Businesses
+                        </div>
+                        <div class="footer_container_content">
+                            <div>
+                                <a href="https://www.coinbase.com/about" title="Learn more about the company">
+                                    Prime
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.coinbase.com/about" title="Learn more about the company">
+                                    Custody
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.coinbase.com/about" title="Learn more about the company">
+                                    Asset Hub
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.coinbase.com/about" title="Learn more about the company">
+                                    Commerce
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer_container_inner_inner">
+                        <div class="footer_container_title">
+                            Developers
+                        </div>
+                        <div class="footer_container_content">
+                            <div>
+                                <a href="https://www.coinbase.com/about" title="Learn more about the company">
+                                    Coinbase Cloud
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.coinbase.com/about" title="Learn more about the company">
+                                    Connect
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.coinbase.com/about" title="Learn more about the company">
+                                    Commerce
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.coinbase.com/about" title="Learn more about the company">
+                                    Pro
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.coinbase.com/about" title="Learn more about the company">
+                                    Bison Trails
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.coinbase.com/about" title="Learn more about the company">
+                                    WalletLink
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.coinbase.com/about" title="Learn more about the company">
+                                    Rosetta
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.coinbase.com/about" title="Learn more about the company">
+                                    USDC
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_container_inner" id="footer_container4">
+                    <div class="footer_container_inner_inner">
+                        <div class="footer_container_title">
+                            Support
+                        </div>
+                        <div class="footer_container_content">
+                            <div>
+                                <a href="https://www.coinbase.com/about" title="Learn more about the company">
+                                    Help center
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.coinbase.com/about" title="Learn more about the company">
+                                    Contact us
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.coinbase.com/about" title="Learn more about the company">
+                                    Create account
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.coinbase.com/about" title="Learn more about the company">
+                                    ID verificaion
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.coinbase.com/about" title="Learn more about the company">
+                                    Account information
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.coinbase.com/about" title="Learn more about the company">
+                                    Payment methods
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.coinbase.com/about" title="Learn more about the company">
+                                    Account accesss
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.coinbase.com/about" title="Learn more about the company">
+                                    Supported crypto
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.coinbase.com/about" title="Learn more about the company">
+                                    Supported countries
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.coinbase.com/about" title="Learn more about the company">
+                                    Status
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
